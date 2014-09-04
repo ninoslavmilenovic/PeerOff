@@ -1,6 +1,6 @@
 # PeerOff #
 
-[![Build Status](https://travis-ci.org/pythogorian/PeerOff.png?branch=devel)](https://travis-ci.org/pythogorian/PeerOff)
+[![Build Status](https://travis-ci.org/pythogorian/PeerOff.svg?branch=devel)](https://travis-ci.org/pythogorian/PeerOff)
 
 Secure P2P RTC Communication Tool
 
