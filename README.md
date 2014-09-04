@@ -20,6 +20,7 @@ PeerOff$ cp config/database.yml.example config/database.yml
 # configure database connection in config/database.yml
 PeerOff$ cp config/secrets.yml.example config/secrets.yml
 # configure secret keys in config/secrets.yml
+PeerOff$ bundle exec rake db:create
 PeerOff$ bundle exec rake db:migrate
 PeerOff$ bundle exec rake db:seed
 PeerOff$ bundle exec rspec
