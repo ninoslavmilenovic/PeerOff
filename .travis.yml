@@ -7,6 +7,8 @@ script:
   - RAILS_ENV=test bundle exec rake db:migrate; bundle exec rspec
 before_script:
   - mysql -e "create database peer_off_test"
+  - cp config/database.yml.example config/database.yml
+  - cp config/secrets.yml.example config/secrets.yml
 branches:
   only:
     - master
